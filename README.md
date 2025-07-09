@@ -8,13 +8,13 @@ To install follow these steps:
 Linux and macOS:
 
 ```bash
-sudo git clone https://github.com/oktayshakirov/portfolio.git
+sudo git clone https://github.com/yourusername/portfolio.git
 ```
 
 Windows:
 
 ```bash
-git clone https://github.com/oktayshakirov/portfolio.git
+git clone https://github.com/yourusername/portfolio.git
 ```
 
 ## Demo
@@ -22,7 +22,7 @@ git clone https://github.com/oktayshakirov/portfolio.git
 ![Desktop Demo](./assets/images/projects/portfolio.png "Desktop Demo")
 
 <p align="center">
-  <a href="https://oktayshakirov.com"><strong>➥ Live Demo</strong></a>
+  <a href="https://olehkostovynskyi.com"><strong>➥ Live Demo</strong></a>
 </p>
 
 

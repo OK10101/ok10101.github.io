@@ -360,7 +360,7 @@ document.addEventListener("DOMContentLoaded", function () {
   );
   const grid = document.querySelector(".calendar-grid");
   const tooltip = document.querySelector(".activity-tooltip");
-  const username = "oktayshakirov";
+  const username = "OK10101";
   const apiUrl = `https://github-contributions-api.jogruber.de/v4/${username}?y=last`;
 
   // Create the months container and add it to the DOM
