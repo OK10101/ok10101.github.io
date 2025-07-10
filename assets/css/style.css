@@ -36,6 +36,7 @@
   --sha-background: linear-gradient(to bottom, #23d3ff 0%, #276aa5 100%);
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
+  --white-3: hsl(0, 0%, 95%);
   --orange-yellow-crayola: hsl(45, 100%, 72%);
   --vegas-gold: hsl(45, 54%, 58%);
   --light-gray: hsl(0, 0%, 84%);
@@ -849,7 +850,7 @@ main {
 }
 
 /*-----------------------------------*\
-  #RESUME
+  #EXPERIENCE
 \*-----------------------------------*/
 
 .article-title {
@@ -874,6 +875,7 @@ main {
 .timeline-list {
   font-size: var(--fs-6);
   margin-left: 45px;
+  margin-right: 45px;
 }
 
 .timeline-item {
@@ -920,6 +922,12 @@ main {
 
 .timeline-text {
   color: var(--light-gray);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+}
+
+.emplyment-container {
+  color: var(--white-3);
   font-weight: var(--fw-300);
   line-height: 1.6;
 }
@@ -1630,7 +1638,7 @@ main {
   }
 
   /**
-   * #RESUME
+   * #EXPERIENCE
    */
 
   .timeline-list {
@@ -2025,7 +2033,7 @@ main {
   }
 
   /**
-	 * RESUME
+	 * EXPERIENCE
 	 */
 
   .timeline-text {
@@ -2070,9 +2078,9 @@ main {
   background-color: hsl(195, 35%, 22%);
 }
 
-/* Resume Container */
+/* Experience Container */
 
-.resume-container {
+.experience-container {
   position: relative;
   display: inline-block;
   padding: 5px;
@@ -2080,19 +2088,19 @@ main {
   box-sizing: border-box;
 }
 
-.resume-container img {
+.experience-container img {
   display: block;
   width: 220px;
   height: auto;
 }
 
-.resume-container:hover img {
+.experience-container:hover img {
   transform: scale(1.05);
   cursor: zoom-in;
   transition: transform 0.5s ease;
 }
 
-.resume-container:hover::before {
+.experience-container:hover::before {
   content: "";
   position: absolute;
   top: 0;
