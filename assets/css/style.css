@@ -324,11 +324,34 @@ main {
 .resume-button {
   padding: 10px 20px;
   background-color: rgba(0, 0, 0, 0.2);
-  color: var(--white-1);
+  color: var(--orange-yellow-crayola);
+  /* color: var(--white-1); */
   cursor: pointer;
   border-radius: 10px;
   box-shadow: var(--shadow-2);
 }
+
+.resume-button a {
+  flex: 1 1 auto;
+  min-width: 200px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsla(240, 3%, 13%, 0.214);
+  margin: 0 5px;
+  padding: 2px 10px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: var(--orange-yellow-crayola);
+  font-size: 17px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.resume-button:hover {
+/* color: var(--light-gray-70); */
+background-color: hsla(240, 3%, 13%, 0.581);
+}
+
 
 .avatar-box {
   background: var(--bg-gradient-onyx);
