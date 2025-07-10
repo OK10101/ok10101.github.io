@@ -321,6 +321,15 @@ main {
   gap: 15px;
 }
 
+.resume-button {
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: var(--white-1);
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: var(--shadow-2);
+}
+
 .avatar-box {
   background: var(--bg-gradient-onyx);
   border-radius: 20px;
