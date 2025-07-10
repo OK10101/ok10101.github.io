@@ -22,7 +22,7 @@ git clone https://github.com/yourusername/portfolio.git
 ![Desktop Demo](./assets/images/projects/portfolio.png "Desktop Demo")
 
 <p align="center">
-  <a href="https://olehkostovynskyi.com"><strong>➥ Live Demo</strong></a>
+  <a href="https://ok10101.github.io"><strong>➥ Live Demo</strong></a>
 </p>
 
 
